@@ -11,7 +11,8 @@ if ! command -v jq >/dev/null 2>&1; then
 fi
 
 # 2. extract worktree path from event payload
-WORKTREE=$(jq -r '.worktree.path // empty' <<<"$HERDR_PLUGIN_EVENT_JSON")
+# Event payload is wrapped: { "event": "...", "data": { "worktree": { "path": ... } } }
+WORKTREE=$(jq -r '.data.worktree.path // .worktree.path // empty' <<<"$HERDR_PLUGIN_EVENT_JSON")
 if [ -z "$WORKTREE" ] || [ ! -d "$WORKTREE" ]; then
   echo "symlink-worktree: no valid worktree path in event, skipping" >&2
   exit 0
