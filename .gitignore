@@ -1,0 +1,14 @@
+.local/
+.claude/
+
+# macOS
+.DS_Store
+
+# editor
+*.swp
+*~
+.idea/
+.vscode/
+
+# logs
+*.log
