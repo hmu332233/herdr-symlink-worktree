@@ -16,13 +16,13 @@ new-worktree/.turbo        -> main-checkout/.turbo
 1. 플러그인을 설치하거나 link합니다.
 
    ```sh
-   herdr plugin link /path/to/symlink-worktree
+   herdr plugin link /path/to/herdr-symlink-worktree
    ```
 
    GitHub에서 설치할 때는 다음 형태를 사용합니다.
 
    ```sh
-   herdr plugin install owner/symlink-worktree
+   herdr plugin install hmu332233/herdr-symlink-worktree
    ```
 
 2. 사용할 repo의 메인 체크아웃에 `.herdr-worktree-links`를 만듭니다.

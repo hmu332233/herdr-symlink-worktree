@@ -18,13 +18,13 @@ new-worktree/.turbo        -> main-checkout/.turbo
 1. Install or link the plugin.
 
    ```sh
-   herdr plugin link /path/to/symlink-worktree
+   herdr plugin link /path/to/herdr-symlink-worktree
    ```
 
    From GitHub:
 
    ```sh
-   herdr plugin install owner/symlink-worktree
+   herdr plugin install hmu332233/herdr-symlink-worktree
    ```
 
 2. In the main checkout of a repository, create `.herdr-worktree-links`.
