@@ -1,5 +1,7 @@
 .local/
 .claude/
+.env
+.env.*
 
 # macOS
 .DS_Store
