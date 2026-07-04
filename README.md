@@ -119,4 +119,4 @@ that contain secrets or large generated directories.
 
 ## License
 
-TBD. Add a `LICENSE` file before publishing this plugin as open source.
+MIT. See [LICENSE](./LICENSE).

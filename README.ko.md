@@ -117,4 +117,4 @@ echo ".herdr-worktree-links" >> .git/info/exclude
 
 ## 라이선스
 
-미정입니다. 오픈소스로 공개하기 전에 `LICENSE` 파일을 추가하세요.
+MIT. [LICENSE](./LICENSE)를 참고하세요.
