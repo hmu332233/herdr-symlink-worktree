@@ -6,6 +6,8 @@ Symlink Worktree는 [herdr](https://herdr.dev)에서 새 Git 워크트리를 만
 `.env` 파일, 배포 설정, 빌드 캐시, 개발 전용 산출물처럼 Git에 커밋하지 않는 로컬
 상태를 워크트리마다 다시 만들고 싶지 않을 때 사용합니다.
 
+![Symlink Worktree 터미널 사용 예시](./docs/assets/symlink-worktree-overview.png)
+
 ```text
 new-worktree/.env          -> main-checkout/.env
 new-worktree/.turbo        -> main-checkout/.turbo

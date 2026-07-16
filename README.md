@@ -8,6 +8,8 @@ It is useful for local, gitignored state that you do not want to recreate for
 each worktree, such as `.env` files, deployment config, build caches, and other
 development-only artifacts.
 
+![Symlink Worktree terminal example](./docs/assets/symlink-worktree-overview.png)
+
 ```text
 new-worktree/.env          -> main-checkout/.env
 new-worktree/.turbo        -> main-checkout/.turbo
